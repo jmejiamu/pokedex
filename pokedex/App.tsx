@@ -8,11 +8,12 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import Root from './src';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>This is a test</Text>
+      <Root />
     </SafeAreaView>
   );
 };
