@@ -14,6 +14,6 @@ export default Root;
 
 const styles = StyleSheet.create({
   font: {
-    color: colors.type_electric,
+    color: colors.text_black,
   },
 });

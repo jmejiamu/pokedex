@@ -13,4 +13,24 @@ export const backgrounds = {
   background_type_rock: '#D4C294',
   background_type_steel: '#4C91B2',
   background_type_water: '#58ABF6',
+  background_white: '#FFFFFF',
+  background_default_input: '#F2F2F2',
+  background_pressed_input: '#E2E2E2',
+  background_modal: '#17171B',
+  gradient_vector: {
+    from_top_center: '#FFFFFF',
+    to_bottom_center: '#FFFFFF',
+  },
+  gradient_pokeball: {
+    from_center_center: '#F5F5F5',
+    to_bottom_center: '#FFFFFF',
+  },
+  gradient_vector_grey: {
+    from_top_left: '#E5E5E5',
+    to_bottom_right: '#F5F5F5',
+  },
+  gradient_pokeball_grey: {
+    from_top_left: '#ECECEC',
+    to_bottom_right: '#F5F5F5',
+  },
 };
