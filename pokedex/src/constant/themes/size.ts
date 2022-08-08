@@ -1,4 +1,4 @@
-export const fontSize = {
+export const size = {
   title: {
     size: 100,
     weight: 'bold',
@@ -22,5 +22,8 @@ export const fontSize = {
   pokemon_type: {
     size: 12,
     weight: 'medium',
+  },
+  margin_horizontal: {
+    size: 30,
   },
 };
