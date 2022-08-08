@@ -1,19 +1,15 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {colors} from './constant/themes';
+import {backgrounds} from './constant/themes';
+import {PrimaryButton} from './components';
 
 const Root = () => {
   return (
     <View>
-      <Text style={styles.font}>Root</Text>
+      <Text>Root</Text>
+      <PrimaryButton title="Primary button" onPress={() => null} />
     </View>
   );
 };
 
 export default Root;
-
-const styles = StyleSheet.create({
-  font: {
-    color: colors.text_black,
-  },
-});
