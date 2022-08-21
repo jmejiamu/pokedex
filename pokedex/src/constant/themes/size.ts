@@ -24,6 +24,6 @@ export const size = {
     weight: 'medium',
   },
   margin_horizontal: {
-    size: 30,
+    size: 40,
   },
 };
